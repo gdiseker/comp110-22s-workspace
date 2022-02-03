@@ -16,7 +16,7 @@ def contains_char(guess: str, character: str) -> bool:
 
 
 def emojified(guess: str, secret_word: str) -> str:
-    """Gives each letter in the guessed word a colored emoji depending on if and/or where it is in the secret word"""
+    """Gives each letter in the guessed word a colored emoji depending on if and/or where it is in the secret word."""
     assert len(guess) == len(secret_word)
     WHITE_BOX: str = "\U00002B1C"
     GREEN_BOX: str = "\U0001F7E9"
